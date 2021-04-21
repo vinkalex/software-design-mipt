@@ -1,1 +1,1 @@
-# software-design-mipt
+# Описание реляционной базы данных Instagram
