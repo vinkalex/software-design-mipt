@@ -10,8 +10,8 @@
 
 ### 2. Post (сущность - пост)
 * postID(PK) - integer
-* text
-* image
+* text - varchar
+* image - png
 
 ### 3. Comment (cущность - комментарий)
 * commentID(PK) - integer
@@ -19,7 +19,7 @@
 * tag - integer
 
 ### 4. Like (cущность - лайк)
-* likeID
+* likeID - integer
 
 ### 5. Profile_Post (таблица-связка профиля с постом)
 * profileID(PK, FK)
